@@ -3,8 +3,10 @@
   "repo": "pgherveou/transitionend",
   "description": "transition end event name",
   "version": "0.0.1",
-  "keywords": [],
-  "dependencies": {},
+  "keywords": ["css", "transition", "prefix"],
+  "dependencies": {
+      "pgherveou/prefix": "*"
+  },
   "development": {},
   "license": "MIT",
   "main": "index.js",
