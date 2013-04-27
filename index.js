@@ -8,6 +8,7 @@ var prefix = require('prefix');
 // src: https://github.com/twitter/bootstrap/issues/2870
 
 var transEndEventNames = {
+    'webkitTransition' : 'webkitTransitionEnd',
     'WebkitTransition' : 'webkitTransitionEnd',
     'MozTransition'    : 'transitionend',
     'OTransition'      : 'oTransitionEnd',
